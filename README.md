@@ -68,7 +68,11 @@ A matriz de confusão resultante do modelo sobre o conjunto de teste apresentou 
 Este tipo de análise é essencial para entender **como e onde o modelo está errando**, e como ele pode ser melhorado. 
 
 ---
+### 👥 Autoras: 
 
+- Larissa Soares de Souza 
+- Lídia Gabrielly Dutra de Meneses Santos 
+  
 ## 🚀 Como executar?
 Para rodar o código, siga os passos abaixo:  
 1. Clone o repositório:  
