@@ -41,9 +41,25 @@ Nosso modelo está treinado tanto quanto uma escolha aleatória – equivalente 
 
 ## 📈 Visualizações e métricas
 🔹 **Curva ROC** → Avalia a capacidade do modelo de **diferenciar as classes**.  
-🔹 **Matriz de confusão** → Indica **acertos e erros** nas previsões do modelo.  
+![image](https://github.com/user-attachments/assets/37cd0293-f907-4456-bc09-067c628c2f25)
 
-## 📉 Análise da Matriz de Confusão Obtida
+### 🔍 Interpretação:
+
+- Uma curva ROC ideal se aproxima do canto superior esquerdo (alta TPR e baixa FPR).
+- A **linha tracejada diagonal** representa o desempenho de um modelo aleatório (AUC = 0.5).
+- Quanto mais **acima dessa linha**, melhor o desempenho do modelo.
+
+### ⚠️ Observações:
+
+- AUC (Área sob a Curva): **0.41**
+- Isso indica que o modelo tem **baixa capacidade de diferenciação entre as classes** (pior do que um modelo aleatório).
+- Pode estar relacionado a:
+  - Dados desbalanceados;
+  - Variáveis com pouco poder preditivo;
+  - Underfitting (modelo simples demais).
+
+🔹 **Matriz de confusão** → Indica **acertos e erros** nas previsões do modelo.  
+![image](https://github.com/user-attachments/assets/16dfd028-c0d1-40e6-95fc-71071aedc7d3)
 
 A matriz de confusão resultante do modelo sobre o conjunto de teste apresentou os seguintes valores:
 
@@ -73,11 +89,3 @@ Este tipo de análise é essencial para entender **como e onde o modelo está er
 - Larissa Soares de Souza 
 - Lídia Gabrielly Dutra de Meneses Santos 
   
-## 🚀 Como executar?
-Para rodar o código, siga os passos abaixo:  
-1. Clone o repositório:  
-   ```bash
-   git clone https://github.com/seu-usuario/admission-prediction.git
-
-tyeste
-![image](https://github.com/user-attachments/assets/16dfd028-c0d1-40e6-95fc-71071aedc7d3)
